@@ -66,6 +66,12 @@
           },
           {
             "type": "color",
+            "id": "button_dev_raiks",
+            "label": "t:settings_schema.colors.settings.button_background_dev_raiks.label",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
             "id": "button_label",
             "label": "t:settings_schema.colors.settings.button_label.label",
             "default": "#FFFFFF"

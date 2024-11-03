@@ -125,7 +125,10 @@
           "label": "Text"
         },
         "button_background": {
-          "label": "Solid button background"
+          "label": "Solid button background Custom"
+        },
+        "button_background_dev_raiks": {
+          "label": "Button Dev Raiks"
         },
         "button_label": {
           "label": "Solid button label"

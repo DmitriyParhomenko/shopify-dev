@@ -2113,7 +2113,7 @@ input[type='checkbox'] {
 .utility-bar__grid .list-social {
   justify-content: flex-start;
   align-content: center;
-  margin-left: -1.2rem;
+  margin-left: 0;
   grid-area: social-icons;
 }
 
@@ -2136,6 +2136,11 @@ input[type='checkbox'] {
   .utility-bar__grid--2-col {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'social-icons language-currency';
+  }
+
+  .utility-bar__grid--1-1-col {
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 'social-icons announcements';
   }
 
   .announcement-bar.announcement-bar--one-announcement,
